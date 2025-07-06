@@ -1,0 +1,26 @@
+project:
+  type: book
+  output-dir: docs      # <- faz todo o site cair em docs/
+
+book:
+  title: "Métodos de Pesquisa"
+  author: "Adelson Guaraci Jantsch"
+  date: "7/6/2025"
+  chapters:
+    - index.qmd
+    - intro.qmd
+    - qual.qmd
+    - quant.qmd
+    - mistos.qmd
+    - references.qmd
+
+bibliography: references.bib
+
+format:
+  html:
+    theme:
+      - cosmo
+      - brand
+
+editor: visual
+
